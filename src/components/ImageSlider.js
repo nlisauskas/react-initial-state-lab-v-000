@@ -16,3 +16,5 @@ class ImageSlider extends React.Component {
     </div>
   }
 }
+
+export default ImageSlider;
