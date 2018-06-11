@@ -11,6 +11,8 @@ class ImageSlider extends React.Component {
   }
 
   render() {
-
+    <div className="ImageSlider">
+      'I am on slide {this.slide.currentSlideIndex}'
+    </div>
   }
 }
