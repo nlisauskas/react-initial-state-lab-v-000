@@ -12,8 +12,8 @@ class Bomb extends React.Component {
   }
 
   render() {
-    <div className="ImageSlider">
-      I am on slide {this.slide.currentSlideIndex}
+    <div className="SecondsLeft">
+      {this.state.secondsLeft}
     </div>
   }
 }
